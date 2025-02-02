@@ -2,7 +2,7 @@
 set -e
 
 # Variables
-GITHUB_REPO_URL="https://github.com/lprior-repo/dotfiles.git"
+GITHUB_REPO_URL="https://github.com/lprior-repo/dots.git"
 DEST_PATH="$HOME/src/dotfiles"          # Use $HOME to ensure proper expansion
 ANSIBLE_PLAYBOOK="$DEST_PATH/setup.yml"  # Path to your Ansible playbook
 
