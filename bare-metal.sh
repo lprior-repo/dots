@@ -26,7 +26,7 @@ fi
 echo "Install Brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo "Setup bashrc"
+echo "Setup bashrc temporarily to get brew to work will remove and use zsh later"
     echo >> /home/lprior/.bashrc
     echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/lprior/.bashrc
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
