@@ -1,0 +1,185 @@
+rm -rf ~/.config/nushell/
+cd .config/
+ls
+cd nushell/
+ls
+exit
+$nu.env-path
+ls
+cd ..
+cd /home/family/.config/nushell
+ls
+ls =0a
+ls -la
+exit
+cd /home/family/.config/nushell
+ls
+$nu.env-path
+pwd
+nvim env.nu
+cat /etc/shells
+brew install fish
+exit
+config nu | check
+$nu.config-path | check
+$nu.config-path | nu-check
+exit
+cd src
+ls
+exit
+cd src
+clear
+cd elastic-terraform/
+exit 
+cd src
+ls
+cd Learning/
+ls
+clear
+ls
+git branch -a
+cd ts
+ls
+clear
+cd ..
+ls
+z
+ls
+exit
+cd src/cue-terraform-github-expermients/.git/
+ls
+cd ..
+exit
+ls
+cd Public/ls
+cd ..
+ls
+cd ~
+fzf
+fzf | config.nu
+ls
+clear
+ls
+cd Documents/
+ls
+clear
+ls
+cd Documents/
+ls
+cd ..
+exit
+starship preset pastel-powerline -o ~/.config/starship.toml
+starship preset jetpack -o ~/.config/starship.toml
+cd src/cue
+ls
+pwd
+ls
+nvim config.cue 
+starship preset plain-text-symbols -o ~/.config/starship.toml
+cd ..
+ls
+cd ,,
+cd ..
+cd src/htmx-hugo-toy/
+git status
+exit
+cd src/datadog-terraform/
+ls
+nvim variables.tf 
+brew install ripgre
+brew install ripgrep
+zellij
+cd ~/.config/zellij/
+ls
+cd zellij/
+ls
+cd ..
+ls
+nvim config.kdl 
+ls
+cd zellij/ls
+cd zellij/
+ls
+nvim config.kdl 
+rm config.kdl
+zellij
+cd ..
+rm config.kdl
+zellij
+ls | sort-by size
+ps | where cpu > 5
+help commands
+brew remove warp
+brew remove wezterm
+brew install wezterm
+cd src/datadog-terraform/
+gh extension 
+gh extension browse
+tutorial
+tutor
+tutor begin
+ls 
+ls | select name
+tutor tables
+ls | select 2
+ls | select name
+ls | get name
+tutor cells
+ls | select 4 | get name
+(ls).4.name
+ls | select 4 | get name
+(ls).4.name
+tutor list
+table expr
+tutor expr
+tutor echo
+echo | ls | get name
+ls | get name
+ls | get name | echo
+tutor each
+echo 1 2 3 | each { |it| $it + 10} 
+tutor blocks
+tutor var
+brew upgrade
+apt upgrade
+brew remove warp 
+apt remove warp 
+exit
+cat nonexistant file
+cat nonexistantfile
+open nonexistentfile
+exit
+echo $novarexists
+echo $novariableexists
+set -u 
+exit
+http get espn.com
+http get https://espn.com
+http get https://espn.com | save espn.txt
+open espn.txt
+explore espn.txt
+bat espn.txt
+http get https://espn.com | query web
+http get https://espn.com | query web--query header
+http get https://espn.com | query web--query 'header'
+brew upgrade nu
+brew upgrade nushell
+http get https://espn.com | query web--query 'header'
+http get https://espn.com | query web --query 'header'
+[ nu_plugin_inc<\n>  nu_plugin_polars<\n>  nu_plugin_gstat<\n>  nu_plugin_formats<\n>  nu_plugin_query<\n>] | each { cargo install $in --locked } | ignore
+http get https://espn.com | query web --query 'header'
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc<\n>source ~/.zshrc
+exit
+http get https://espn.com | query web --query 'header'
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+exit
+$env
+brew upgrade
+brew install chezmoi docker eza fd fzf gh go kind kubernetes-cli lazygit luacheck neovim nerdfix node nushell ruby sqlite ripgrep rust starship terraform xclip wezterm zellij zoxide<\n>
+brew install caraspace
+brew install carapace
+brew list
+brew install ghostty
+brew install --cask ghostty
+source /etc/os-release<\n>ARCH=$(dpkg --print-architecture)<\n>GHOSTTY_DEB_URL=$(<\n>   curl -s https://api.github.com/repos/mkasberg/ghostty-ubuntu/releases/latest | \<\n>   grep -oP "https://github.com/mkasberg/ghostty-ubuntu/releases/download/[^\s/]+/ghostty_[^\s/_]+_${ARCH}_${VERSION_ID}.deb"<\n>)<\n>GHOSTTY_DEB_FILE=$(basename "$GHOSTTY_DEB_URL")<\n>curl -LO "$GHOSTTY_DEB_URL"<\n>sudo dpkg -i "$GHOSTTY_DEB_FILE"<\n>rm "$GHOSTTY_DEB_FILE"
+exit
