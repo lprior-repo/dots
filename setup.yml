@@ -1,0 +1,33 @@
+- name: Setup Machine
+  hosts: localhost
+  tasks:
+    - name: Install Homebrew packages
+      community.general.homebrew:
+        name: 
+          - carapace
+          - chezmoi
+          - docker
+          - eza
+          - fd
+          - fzf
+          - gh
+          - go
+          - kind
+          - kubernetes-cli
+          - lazygit
+          - luacheck
+          - neovim
+          - nerdfix
+          - node
+          - nushell
+          - ruby
+          - sqlite
+          - ripgrep
+          - rust
+          - starship
+          - terraform
+          - xclip
+          - wezterm
+          - zellij
+          - zoxide
+        state: latest
